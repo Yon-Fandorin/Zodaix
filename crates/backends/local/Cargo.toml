@@ -1,0 +1,16 @@
+[package]
+name = "zodaix-local"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Local filesystem passthrough backend for Zodaix"
+
+[dependencies]
+zodaix-core = { workspace = true }
+dashmap = { workspace = true }
+parking_lot = { workspace = true }
+libc = { workspace = true }
+nix = { workspace = true }
+tracing = { workspace = true }
+xattr = { workspace = true }
+filetime = { workspace = true }

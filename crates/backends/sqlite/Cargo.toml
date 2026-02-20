@@ -1,0 +1,17 @@
+[package]
+name = "zodaix-sqlite"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "SQLite-backed persistent VFS backend for Zodaix"
+
+[dependencies]
+zodaix-core = { workspace = true }
+rusqlite = { workspace = true }
+parking_lot = { workspace = true }
+libc = { workspace = true }
+nix = { workspace = true }
+tracing = { workspace = true }
+
+[dev-dependencies]
+tempfile = "3"

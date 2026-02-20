@@ -1,0 +1,13 @@
+[package]
+name = "zodaix-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Core VFS traits, types, and error definitions for Zodaix"
+
+[dependencies]
+bitflags = { workspace = true }
+libc = { workspace = true }
+nix = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }

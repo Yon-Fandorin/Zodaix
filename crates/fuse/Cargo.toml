@@ -1,0 +1,13 @@
+[package]
+name = "zodaix-fuse"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "FUSE bridge mapping fuser::Filesystem to VfsBackend"
+
+[dependencies]
+zodaix-core = { workspace = true }
+fuser = { workspace = true }
+libc = { workspace = true }
+tracing = { workspace = true }
+parking_lot = { workspace = true }
